@@ -1,0 +1,2285 @@
+        @media (pointer:coarse){
+            *a{
+                word-wrap: break-word;
+            }
+
+            *body{ 
+                overflow-x:hidden ;
+            }
+
+            nav img{
+                height: 4rem;
+                width:4rem;
+                border-radius:50%;
+                margin:-3% 0 0 90%;
+                border: dotted 1px orange;
+            
+                transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+
+            .btns a{
+                background-color:rgba(0, 0, 0, 0.548);
+                transition:padding 1s,filter 4s ease-in-out;
+                filter:opacity(0.8);
+                animation: tracker 2s 1;
+            }
+
+            .btns a:hover{
+                filter:opacity(0.9);
+                animation:none;
+            }
+            
+            @keyframes tracker{
+                0%{
+                filter:opacity(0.2);
+                }
+
+            100%{
+            filter:opacity(1);
+                background-color:#000;
+            }
+            }
+     
+
+               /* textarea */ /*FOR GENERAL*/
+        @media screen and (min-width:100px) {
+            .comment-input textarea{
+            width: 70%;
+                margin:8% 0;
+            }
+
+            .comment-input textarea:focus{
+            width: 90%;
+            }
+
+            .socials svg{
+                margin:0 0 0 -80% ;
+            }
+        } 
+
+        @media screen and (min-width:100px) and (max-width:1000px) {
+            .cust-label #cust-label{
+                margin:70% 0 0 26%;
+            }
+
+            .customer {
+                margin:10% auto;
+            }
+        }
+
+        /* 250px -- 265px*/
+        @media screen and (min-width:249.5px) and (max-width:265px) {
+        
+            nav a{
+                padding: 0.8em 0.2em;
+                    font-size:70%;
+                }
+            
+                nav a:hover{
+                text-decoration:underline;
+                background:none;
+                color:inherit;
+                border:none;
+                border-style:none;
+                }
+            
+                nav img{
+                height: 1.8em;
+                width:  1.8em;
+                border-radius:50%;
+                    
+                margin:1.0% 0 0 16.2em;
+                    
+                border: dotted 1px orange;
+            
+                transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+
+            .models{
+                background:pink;
+                height:20em;
+                width:95%;
+            }
+
+
+            .slider{
+                margin:3em 0;
+                width:75em;
+            }
+
+            .slider img{
+                padding:0 16px;
+                width:10em;
+            height:13em
+            }
+
+            .btns{
+                margin:-15px 0;
+                width:100%;
+                border:none;
+            }
+        .btns a{
+            padding:0 2px;
+        }
+
+        #Deals-banner {
+        margin:12% 0 26% 26%;
+        }
+                
+                .deals img{
+                margin:0 0 0 0;
+                height:13rem;
+                width: 10rem;
+                padding: 10% 0.5%;    
+            }
+            
+                .deals img:hover{
+                padding:5% 0.5%;
+            }
+
+                    #support-banner{
+                font-size:150%;
+                    margin:20% 26%;
+                }
+                .customer-support .contacts{
+                font-size:56%;
+                }
+            
+                .cust-label #cust-label{
+                font-size:120%
+                }
+
+                .customer{
+                    margin:10% 0;
+                }
+                .customer .cust-icons img{
+                    height:2em;
+                    width:2em;
+                    margin:0 0 0 8em;
+        }
+                .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+            margin: -2% 15% 0 -45%  ;
+            text-align: center;
+        }
+            #u-info{
+                font-size:80%;
+            }
+            .customer .cust-icons{
+            -webkit-box-shadow:3px 3px 20px 2px #000;
+            -moz-box-shadow: 3px 3px 20px 2px #000;
+            box-shadow: 3px 3px 20px 2px #000;
+            }
+
+        }
+
+        /*265px -- 270px*/
+        @media screen and (min-width:265.5px) and (max-width:275px) {
+        
+            nav a{
+                padding: 0.8em 0.2em;
+                    font-size:70%;
+                }
+            
+                nav a:hover{
+                text-decoration:underline;
+                background:none;
+                color:inherit;
+                border:none;
+                border-style:none;
+                }
+            
+                nav img{
+                height: 1.8em;
+                width:  1.8em;
+                border-radius:50%;
+                    
+                margin:1.0% 0 0 16.2em;
+                    
+                border: dotted 1px orange;
+            
+                transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+
+            .models{
+                background:pink;
+                height:25em;
+                width:95%;
+            }
+
+
+            .slider{
+                margin:3em 0;
+                width:85em;
+            }
+
+            .slider img{
+                padding:0 22px;
+                width:10em;
+            height:15em;
+                
+            }
+
+            .btns{
+                margin:0;
+                width:100%;
+                border:none;
+            }
+        .btns a{
+            padding:0 2px;
+        }
+
+                
+                .deals img{
+                height:20rem;
+                width: 12rem;
+                padding: 10% 0.5%;   
+                margin:2% 0;
+            }
+
+                
+                .deals img:hover{
+                padding:15% 0.5%;
+            }
+
+                    #support-banner{
+                font-size:150%;
+                }
+                .customer-support .contacts{
+                font-size:68%;
+                }
+            
+                .cust-label #cust-label{
+                font-size:120%
+                }
+
+                .customer{
+                    margin:10% 0;
+                }
+                .customer .cust-icons img{
+                    height:2em;
+                    width:2em;
+                    margin:0 0 0 8em;
+        }
+                .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+            margin: -2% 15% 0 -45%  ;
+            text-align: center;
+        }
+            #u-info{
+                font-size:80%;
+            }
+
+            .customer .cust-icons{
+            -webkit-box-shadow:3px 3px 20px 2px #000;
+            -moz-box-shadow: 3px 3px 20px 2px #000;
+            box-shadow: 3px 3px 20px 2px #000;
+            }
+
+        }
+
+        /*275-- 285*/
+        @media screen and (min-width:275.5px) and (max-width:279px){
+
+            nav a{
+                padding: 0.8em 0.2em;
+                    font-size:70%;
+                }
+            
+                nav a:hover{
+                text-decoration:underline;
+                background:none;
+                color:inherit;
+                border:none;
+                border-style:none;
+                }
+            
+                nav img{
+                height: 1.8em;
+                width:  1.8em;
+                border-radius:50%;
+                    
+                margin:1.0% 0 0 16.2em;
+                    
+                border: dotted 1px orange;
+            
+                transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+
+            .models{
+                height:22em;
+                width:95%;
+                background:pink;
+            }
+            
+
+
+            .slider{
+                margin:3em 0;
+                width:88em;
+            }
+
+            .slider img{
+                padding:0 25px;
+                width:10em;
+            height:13em
+                
+            }
+
+            .btns{
+                margin:0% 0;
+                width:100%;
+                border:none;
+            }
+
+        .btns a{
+            padding:0 2%
+        }
+
+        #Deals-banner{
+            margin:20% 23%
+        }
+                .deals img{
+                height:20rem;
+                width: 12rem;
+                padding: 10% 0.5%;  
+                margin:2% 0;
+            }
+            
+                .deals img:hover{
+                padding:15% 0.5%;
+            }
+
+                    #support-banner{
+                font-size:150%;
+                }
+                .customer-support .contacts{
+                font-size:68%;
+                }
+            
+                .cust-label #cust-label{
+                font-size:120%
+                }
+
+                .customer{
+                    margin:10% 0;
+                }
+                .customer .cust-icons img{
+                    height:2em;
+                    width:2em;
+                    margin:0 0 0 8em;
+        }
+                .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+            margin: -2% 15% 0 -45%  ;
+            text-align: center;
+        }
+            #u-info{
+                font-size:80%;
+            }
+
+            .customer .cust-icons{
+            -webkit-box-shadow:3px 3px 20px 2px #000;
+            -moz-box-shadow: 3px 3px 20px 2px #000;
+            box-shadow: 3px 3px 20px 2px #000;
+            }
+        }
+
+        /*279.5px--300px*/
+        @media screen and (min-width:279.5px) and (max-width:300px){
+            body{
+            overflow-x:hidden;
+            } 
+            nav a{
+            padding: 0.8em 0.5em;
+                font-size:80%;
+            }
+        
+            nav a:hover{
+            text-decoration:underline;
+            background:none;
+            color:inherit;
+            border:none;
+            border-style:none;
+            }
+        
+            nav img{
+            height: 1.8em;
+            width:  1.8em;
+            border-radius:50%;
+                
+            margin:-2% 0 0 19em;
+                
+            border: dotted 1px orange;
+        
+            transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+
+        .models{
+            width:84%;
+            height:20em;
+            background:pink;
+        }
+        .slider{
+        width:118em;
+        margin:0.2em 0 0 0;
+        }
+        .slider img{
+        width:9.8em;
+        height:13em;
+        padding:16px;
+        }
+
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+
+        .btns a{
+        padding:0 2%;
+        }
+
+            .deals img{
+            margin:2% 0;
+            height:25rem;
+            width: 12rem;
+            padding: 20% 0.5%;    
+        }
+        
+            #support-banner{
+            font-size:150%;
+            }
+            .customer-support .contacts{
+            font-size:85%;
+            }
+        
+            .cust-label #cust-label{
+            font-size:120%
+            }
+
+        .customer .cust-icons img{
+        border: solid 1px black;
+        border-radius: 50px;
+        height:2rem;
+        width:2rem;
+
+
+        transition: transform 1s, filter 2s ease-in-out;
+        transform: scale(1);
+        }
+
+        .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+        margin: -2% 15% 0 -42%  ;
+        text-align: center;
+        }
+
+        #u-info{
+        margin:-3% 0 0 0;
+        }
+
+        }
+
+        /*300.5px--320px*/
+        @media screen and (min-width:300.5px) and (max-width:320px){
+            body{
+                overflow-x:hidden;
+            } 
+
+            nav a{
+            padding: 0.8em 0.5em;
+                font-size:80%;
+            }
+        
+            nav a:hover{
+                text-decoration:underline;
+                background:none;
+                color:inherit;
+                border:none;
+                border-style:none;
+            }
+        
+            nav img{
+            height: 1.8em;
+            width:  1.8em;
+            border-radius:50%;
+                
+            margin:-2% 0 0 19em;
+                
+            border: dotted 1px orange;
+        
+            transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+        
+            .models{
+            width:84%;
+            height:18em;
+            background:pink;
+        }
+        
+        .slider{
+        width:118em;
+        margin:0.2em 0 0 0;
+        }
+        .slider img{
+        width:12em;
+        height:13em;
+        padding:8px;
+        }
+        
+        .btns{
+        margin: 5% 0;
+        width:100%;
+        border:none;
+        }
+        
+        .btns a{
+        padding:0 2%;
+        }
+        
+        #Deals-banner{
+        margin:20% 25%;
+        }
+            .deals img{
+            margin:2% 0;
+            height:25rem;
+            width: 14rem;
+            padding: 15% 0.5%;    
+        }
+            
+            #support-banner{
+                font-size:150%;
+            }
+            .customer-support .contacts{
+                font-size:85%;
+            }
+        
+            .cust-label #cust-label{
+                font-size:120%
+            }
+        
+        .customer .cust-icons img{
+        border: solid 1px black;
+        border-radius: 50px;
+        height:2rem;
+        width:2rem;
+        
+        
+        transition: transform 1s, filter 2s ease-in-out;
+        transform: scale(1);
+        }
+        
+        .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+        margin: -2% 15% 0 -42%  ;
+        text-align: center;
+        }
+        
+        #u-info{
+        margin:-3% 0 0 0;
+        }
+        }
+
+        /*320.5px--340px*/
+        @media screen and (min-width:320.5px) and (max-width:340px){
+            body{
+                overflow-x:hidden;
+            } 
+            nav a{
+            padding: 0.8em 0.5em;
+                font-size:80%;
+            }
+        
+            nav a:hover{
+                text-decoration:underline;
+                background:none;
+                color:inherit;
+                border:none;
+                border-style:none;
+            }
+        
+            nav img{
+            height: 1.8em;
+            width:  1.8em;
+            border-radius:50%;
+            margin:-2% 0 0 19em;
+            border: dotted 1px orange;
+            transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+        
+        .models{
+            width:84%;
+            height:20em;
+            background:pink;
+        }
+        
+        .slider{
+        width:118em;
+        margin:0.2em 0 0 0;
+        }
+        
+        .slider img{
+        width:12em;
+        height:13em;
+        padding:13px;
+        }
+        
+        .btns{
+        margin:8% 0;
+        width:100%;
+        border:none;
+        }
+        
+        .btns a{
+        padding:0 2%;
+        }
+        
+        .deals img{
+        height:25rem;
+        width: 14rem;
+        padding: 25% 0.5%; 
+        }   
+        
+        
+        #support-banner{
+            font-size:150%;
+        }
+        
+        
+        .customer-support .contacts{
+            font-size:85%;
+        }
+        
+        .cust-label #cust-label{
+            font-size:120%
+        }
+        
+        .customer .cust-icons img{
+            border: solid 1px black;
+            border-radius: 50px;
+            height:2rem;
+            width:2rem;
+        
+            transition: transform 1s, filter 2s ease-in-out;
+            transform: scale(1);
+        }
+        
+        .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+            margin: -2% 15% 0 -42%  ;
+            text-align: center;
+        }
+        
+        #u-info{
+            margin:-3% 0 0 0;
+        }
+
+        }
+
+        /*340.5px--360px*/
+        @media screen and (min-width:340.5px) and (max-width:360px){
+            body{
+                overflow-x:hidden;
+            } 
+            nav a{
+            padding: 0.8em 0.5em;
+                font-size:80%;
+            }
+        
+            nav a:hover{
+                text-decoration:underline;
+                background:none;
+                color:inherit;
+                border:none;
+                border-style:none;
+            }
+        
+            nav img{
+            height: 1.8em;
+            width:  1.8em;
+            border-radius:50%;
+                
+            margin:-2% 0 0 19em;
+                
+            border: dotted 1px orange;
+        
+            transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+        
+        .models{
+            width:84%;
+            height:20em;
+            background:pink;
+        }
+        
+        .slider{
+        width:118em;
+        margin:0.2em 0 0 0;
+        }
+        
+        .slider img{
+        width:14em;
+        height:13em;
+        padding:6px;
+        }
+        
+        .btns{
+        margin:10% 0;
+        width:100%;
+        border:none;
+        }
+        
+        .btns a{
+        padding:0 2%;
+        }
+        
+            .deals img{
+            margin:-18% 0;
+            height:25rem;
+            width: 14rem;
+            padding: 25% 0.5%;    
+        }
+        
+        
+            #support-banner{
+                font-size:150%;
+            }
+            .customer-support .contacts{
+                font-size:85%;
+            }
+        
+            .cust-label #cust-label{
+                font-size:120%;
+            }
+        
+        .customer .cust-icons img{
+        border: solid 1px black;
+        border-radius: 50px;
+        height:2rem;
+        width:2rem;
+        
+        transition: transform 1s, filter 2s ease-in-out;
+        transform: scale(1);
+        }
+        
+            .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+        margin: -2% 15% 0 -42%  ;
+        text-align: center;
+        }
+        
+            #u-info{
+        margin:-3% 0 0 0;
+        }
+        }
+
+        @media screen and (min-width:360.5px) and (max-width:370px) {
+            nav a{
+                margin:10% 0;
+                padding: 1em 0.5em;
+                color: #000;
+                font-size:80%;
+                transition:ease-in-out 0.5s;
+                    
+                }
+            
+                nav a:hover{
+                    background-color:#000;
+                border:solid 1px inherit;
+                    border-radius:25px;
+                    color:#ffffff;
+                }
+
+                nav img{
+                height: 2rem;
+                width:2rem;
+                border-radius:50%;
+                margin:-3% 0 0 80%;
+                border: dotted 1px orange;
+            
+                transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+
+            nav img:hover{
+                transform: scale(1.2);
+            }
+
+        .models{
+            width:83%;
+            height:22em;
+            background:pink;
+        }
+        .slider{
+        width:1010em;
+        margin:2em 0 0 0;
+        }
+        .slider img{
+        width:13.5em;
+        height:14em;
+        padding:14px;
+        }
+
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+
+        .deals img{
+        width:20em;
+        }
+
+        .customer .cust-icons img{
+        border: solid 1px black;
+        border-radius: 50px;
+        height:2rem;
+        width:2rem;
+
+
+        transition: transform 1s, filter 2s ease-in-out;
+        transform: scale(1);
+        }
+
+        .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+            margin: -2% 15% 0 -50%  ;
+            text-align: center;
+        }
+
+        #u-info{
+        margin:3% 0 0 8px;
+        }
+        }
+
+        @media screen and (min-width:370.5px) and (max-width:374.5px) {
+            nav a{
+                padding: 0.8em 5px;
+            }
+
+            nav img{
+                height:2em;
+                width:2em;
+
+                transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+
+            nav img:hover{
+                transform: scale(1.2);
+            }
+
+            
+            .models{
+                width:84%;
+                height:22em;
+                background:pink;
+            }
+
+        .slider{
+            width:120em;
+            margin:2em 0 0 0;
+        }
+        .slider img{
+        width:14em;
+        height:13em;
+        padding:15px;
+        }
+
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+
+        .deals img{
+            width:20em;
+        }
+        
+        .customer .cust-icons img{
+            border: solid 1px black;
+            border-radius: 50px;
+            height:2rem;
+            width:2rem;
+        
+        
+            transition: transform 1s, filter 2s ease-in-out;
+            transform: scale(1);
+        }
+        .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+            margin: -2% 15% 0 -50%  ;
+            text-align: center;
+        }
+        
+        #u-info{
+        margin:-3% 0 0 10px;
+        }
+        }
+
+        @media screen and (min-width:374.5px) and (max-width:400px){
+
+            nav a{
+                margin:10% 0;
+                padding: 1em 1em;
+                color: #000;
+                font-size:70%;
+                transition:ease-in-out 0.5s;
+                    
+                }
+            
+                nav a:hover{
+                    background-color:#000;
+                border:solid 1px inherit;
+                    border-radius:25px;
+                    color:#ffffff;
+                }
+        
+                nav img{
+                height: 2rem;
+                width:2rem;
+                border-radius:50%;
+                margin:-3% 0 0 90%;
+                border: dotted 1px orange;
+            
+                transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+        
+            nav img:hover{
+                transform: scale(1.2);
+            }
+        
+        .models{
+            width:85%;
+            height:20em;
+            background:pink;
+        }
+        .slider{
+        width:126em;
+        margin:2em 0 0 0;
+        }
+        .slider img{
+        width:15em;
+        height:14em;
+        padding:10px;
+        }
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+        
+        .deals img{
+            width:20em;
+        }
+
+        .customer .cust-icons img{
+            border: solid 1px black;
+            border-radius: 50px;
+            height:2rem;
+            width:2rem;
+        
+            transition: transform 1s, filter 2s ease-in-out;
+            transform: scale(1);
+        }
+        
+        
+        #u-info{
+        margin: 2% 0 0 -30%;
+        }
+        
+            #u-info{
+            margin: 2% 0 0 -30%;
+        }
+        
+        }
+
+        @media screen and (min-width:400.5px) and (max-width:420px){
+            nav a{
+                padding:0.8em 0.5em
+            }
+
+            nav img{
+             height: 3em;
+             width:  3em;
+             margin:-3% 0 0 85%;
+                
+            }
+
+            .models{
+             width:85%;
+             height:23em;
+             background:pink;
+            }
+
+            .slider{
+             width:156em;
+             margin:2em 0 0 0;
+            }
+
+            .slider img{
+             width:16em;
+             height:14em;
+             padding:12px;
+            }
+
+            .btns{
+             margin:10% 0;
+             width:100%;
+             border:none;
+            }
+
+            .deals img{
+             width:20em;
+            }
+
+            .customer .cust-icons img{
+                border: solid 1px black;
+                border-radius: 50px;
+                height:2rem;
+                width:2rem;
+            
+                transition: transform 1s, filter 2s ease-in-out;
+                transform: scale(1);
+            }
+
+            #u-info{
+             margin: 2% 0 0 -30%;
+            }
+
+        }
+
+        @media screen and (min-width:420.5px) and (max-width:430px) {
+            nav a{
+                padding:0.8em 0.5em
+            }
+
+        nav img{
+            height: 3em;
+            width:  3em;
+        }
+
+        .models{
+            width:84%;
+            height:20em;
+        background:pink;
+            
+        }
+        .slider{
+        width:125em;
+        margin:2em 0 0 3em;
+        }
+
+        .slider img{
+        width:14em;
+        height:10em;
+        padding:26px;
+        }
+
+        .btns{
+        margin:0;
+        width:100%;
+        border:none;
+        }
+
+        .btns a{
+        padding:0 3%
+        }
+
+        .deals img{
+        width:18em;
+        }
+
+        .customer .cust-icons img{
+            height:35px;
+            width:35px;   
+        }
+
+        #u-info{
+            margin:-10% 0 0 10%
+        }
+
+        }
+
+        @media screen and (min-width:430.5px) and (max-width:440px) {
+                nav a{
+                padding:0.8em 0.5em
+        }
+
+        nav img{
+            height: 3em;
+            width:  3em;
+        }
+
+        .models{
+            width:84%;
+            height:20em;
+            background:pink;
+        }
+
+        .slider{
+        width:125em;
+        margin:2em 0 0 3em;
+        }
+
+        .slider img{
+        width:14em;
+        height:10em;
+        padding:29px;
+        }
+
+        .btns{
+        margin:0 auto;
+        width:100%;
+        border:none;
+        }
+
+        .btns a{
+            padding:0 2%;
+        }
+
+        .deals img{
+            width:16em
+        }
+
+        .customer .cust-icons img{
+        height:35px;
+        width:35px;
+        }
+
+        #u-info{
+        margin:-10% 0 0 10%
+        }
+
+        .customer .cust-icons img{
+            height:35px;
+            width:35px;
+            
+            
+        }
+
+        #u-info{
+            margin:-10% 0 0 10%
+        }
+
+        }
+
+        @media screen and (min-width:440.5px) and (max-width:450px) {
+            nav a{
+                padding:0.8em 0.5em
+            }
+
+        nav img{
+            height: 3em;
+            width:  3em;
+        }
+
+        .models{
+            width:84%;
+            height:20em;
+            background:pink;
+        }
+
+        .slider{
+        width:127em;
+        margin:2em 0 0 0;
+        }
+
+        .slider img{
+        width:15em;
+        height:11em;
+        padding:30px;
+        }
+
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+
+        .deals img{
+        width:20em;
+        }
+
+        .customer .cust-icons img{
+            height:35px;
+            width:35px;   
+        }
+
+        #u-info{
+            margin:-10% 0 0 10%
+        }
+
+        }
+
+        @media screen and (min-width:450.5px) and (max-width:460px) {
+            nav a{
+                padding:0.8em 0.5em
+            }
+
+        nav img{
+            height: 3em;
+            width:  3em;
+        }
+
+        .models{
+            width:84%;
+            height:20em;
+            background:pink;
+        }
+        .slider{
+        width:125em;
+        margin:2em 0 0 3em;
+        }
+        .slider img{
+        width:15em;
+        height:11em;
+        padding:29px;
+        }
+
+        .btns{
+            margin:0;
+            width:100%;
+            border:none;
+        }
+
+        #Deals-banner {
+        margin:25% 0 20% 22%;
+        }
+
+
+        .deals img {
+        width:20em;
+        margin:-18% 0;
+        }
+
+        .customer .cust-icons img{
+            height:35px;
+            width:35px;   
+        }
+
+        #u-info{
+            margin:-10% 0 0 10%
+        }
+
+        }
+
+        @media screen and (min-width:460.5px) and (max-width:470px) {
+            nav a{
+                padding:0.8em 0.5em
+            }
+
+        nav img{
+            height: 3em;
+            width:  3em;
+        }
+
+        .models{
+            width:84%;
+            height:20em;
+            background:pink;
+        }
+        .slider{
+        width:125em;
+        margin:0.2em 0 0 0;
+        }
+        .slider img{
+        width:15em;
+        height:12em;
+        padding:36px;
+        }
+
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+
+        .deals img{
+        width:25em;
+        }
+
+        .customer .cust-icons img{
+            height:35px;
+            width:35px;   
+        }
+
+        #u-info{
+            margin:-10% 0 0 10%
+        }
+
+        }
+
+        @media screen and (min-width:470.5px) and (max-width:480px) {
+            nav a{
+                padding:0.8em 0.5em
+            }
+
+        nav img{
+            height: 3em;
+            width:  3em;
+        }
+
+        .models{
+            width:84%;
+            height:20em;
+            background:pink;
+        }
+        .slider{
+        width:128em;
+        margin:0.2em 0 0 0;
+        }
+        .slider img{
+        width:15em;
+        height:12em;
+        padding:38px;
+        }
+
+        .btns{
+        margin:0;
+        width:100%;
+        border:none;
+        }
+
+        .customer .cust-icons img{
+            height:35px;
+            width:35px;
+        }
+
+        #u-info{
+            margin:-10% 0 0 10%
+        }
+        }
+        
+        @media screen and (min-width:540px) and (max-width:570px){
+            body{
+                font-size:120%;
+                overflow-x:hidden;
+            }
+
+            nav a{
+                padding: 0.8em 0.5em;
+            }
+
+            nav img{
+                height:2.5em;
+                width:2.5em;
+                    transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+            
+            nav img:hover{
+                transform: scale(1.2);
+            }
+
+            .models{
+                width:84%;
+                height:20em;
+                background:rgba(127, 255, 212, 0.658);
+            }
+        .slider{
+            width:128em;
+            margin:0.2em 0 0 0;
+        }
+        .slider img{
+            width:15em;
+            height:12em;
+            padding:39px;
+        }
+        
+        .btns{
+            margin: 0;
+            width:100%;
+            border:none;
+        }
+
+            #support-banner{
+                    font-size:250%;
+                }
+        
+            
+            .cust-label #cust-label{
+                    font-size:250%
+                }
+
+            .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+            margin: -2% 15% 0 -50%  ;
+            text-align: center;
+                height:2.5em;
+                width:2.5em;
+        }
+        
+            #u-info{
+                font-size:80%;
+            margin: -15% 0 0 9.5%;
+        }
+        }
+
+        @media screen and (min-width:759.5px) and (max-width:780px) {
+            body{
+            font-size:150%;
+        }
+        
+        nav a{
+        text-decoration: none;
+        padding: 0.8em 0.8em;
+        color: #000;
+        font-size:115%;
+        width: 10%;
+        transition:ease-in-out 0.6s;
+        }
+
+        nav a:hover{
+            border-radius:50px;
+        }
+
+        nav img{
+                transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+
+        .models{
+            width:84%;
+            height:22em;
+            background:rgba(127, 255, 212, 0.658);
+        }
+
+        .slider{
+        width:145em;
+        margin:0.2em 0 0 0;
+        }
+        .slider img{
+        width:18em;
+        height:15em;
+        padding:44px;
+        }
+
+        .btns{
+            margin: 0;
+            width:100%;
+            border:none;
+        }
+
+        #support-banner{
+                font-size:250%;
+            }
+
+
+        .cust-label #cust-label{
+                font-size:250%;
+                margin:56% 0 0 26%;
+            }
+
+        #u-info{
+        margin: -15% 0 0 1%;
+        }
+        
+        }
+
+        @media screen and (min-width:780.5px) and (max-width:800px) {
+            body{
+            font-size:150%;
+        }
+        
+        nav a{
+        text-decoration: none;
+        padding: 0.8em 0.8em;
+        color: #000;
+        font-size:115%;
+        width: 10%;
+        transition:ease-in-out 0.6s;
+        }
+
+        nav a:hover{
+            border-radius:50px;
+        }
+
+        nav img{
+                transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+
+        .models{
+            width:84%;
+            height:22em;
+            background:rgba(127, 255, 212, 0.658);
+        }
+
+        .slider{
+        width:155em;
+        margin:0.2em 0 0 0;
+        }
+
+        .slider img{
+        width:18em;
+        height:12em;
+        padding:50px;
+        }
+
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+
+        #support-banner{
+                font-size:250%;
+            }
+
+
+        .cust-label #cust-label{
+                font-size:250%
+            }
+
+        #u-info{
+        margin: -15% 0 0 1%;
+        }
+        
+        }
+
+        @media screen and (min-width:800.5px) and (max-width:850px) {
+            body{
+            font-size:150%;
+        }
+        
+        nav a{
+        text-decoration: none;
+        padding: 0.8em 0.8em;
+        color: #000;
+        font-size:115%;
+        width: 10%;
+        transition:ease-in-out 0.6s;
+        }
+
+        nav a:hover{
+            border-radius:50px;
+        }
+
+        nav img{
+                transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+
+        .models{
+            width:84%;
+            height:22em;
+        background:rgba(127, 255, 212, 0.658);
+        }
+        
+        .slider{
+        width:155em;
+        margin:0.2em 0 0 0;
+        }
+        
+        .slider img{
+        width:20em;
+        height:14em;
+        padding:35px;
+        }
+
+        .btns{
+        margin:0;
+        width:100%;
+
+        }
+
+        #support-banner{
+                font-size:200%;
+            }
+
+
+        .cust-label #cust-label{
+                font-size:200%;
+            }
+
+        #u-info{
+        margin: -15% 0 0 1%;
+        }
+        
+        }
+        @media screen and (min-width:850.5px) and (max-width:900px) {
+            body{
+            font-size:150%;
+        }
+        
+        nav a{
+        text-decoration: none;
+        padding: 0.8em 0.8em;
+        color: #000;
+        font-size:115%;
+        width: 10%;
+        transition:ease-in-out 0.6s;
+        }
+
+        nav a:hover{
+            border-radius:50px;
+        }
+
+        nav img{
+                transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+
+        .models{
+            width:84%;
+            height:22em;
+        background:rgba(127, 255, 212, 0.658);
+        }
+
+        .slider{
+        width:165em;
+        margin:0.2em 0 0 0;
+        }
+
+        .slider img{
+        width:20em;
+        height:13em;
+        padding:50px;
+        }
+
+        .btns{
+        margin:0;
+        width:100%;
+        border:none;
+        }
+
+        #support-banner{
+                font-size:200%;
+            }
+
+
+        .cust-label #cust-label{
+                font-size:200%;
+                margin:48% 0 0 26%;
+            }
+
+        #u-info{
+        margin: -15% 0 0 1%;
+        }
+        
+        }
+
+        @media screen and (min-width:900.5px) and (max-width:920px) {
+            body{
+            font-size:150%;
+        }
+        
+        nav a{
+        text-decoration: none;
+        padding: 0.8em 1em;
+        color: #000;
+        font-size:115%;
+        width: 10%;
+        transition:ease-in-out 0.6s;
+        }
+
+        nav a:hover{
+            border-radius:50px;
+        }
+
+        nav img{
+                transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+
+        .models{
+            width:84%;
+            height:22em;
+            background:rgba(127, 255, 212, 0.658);
+        }
+        .slider{
+        width:185em;
+        margin:0.2em 0 0 1em;
+        }
+        .slider img{
+        width:24em;
+        height:15em;
+        padding:21px;
+        }
+
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+
+
+
+        #support-banner{
+            font-size:200%;
+            }
+
+
+        .cust-label #cust-label{
+            font-size:200%;
+            }
+
+        #u-info{
+        margin: -15% 0 0 1%;
+        }
+        
+        }
+
+        @media screen and (min-width:920.5px) and (max-width:970px) {
+            body{
+            font-size:150%;
+        }
+        
+        nav a{
+        text-decoration: none;
+        padding: 0.8em 1em;
+        color: #000;
+        font-size:115%;
+        width: 10%;
+        transition:ease-in-out 0.6s;
+        }
+
+        nav a:hover{
+            border-radius:50px;
+        }
+
+        nav img{
+                transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+
+        .models{
+            width:84%;
+            height:30em;
+            background:rgba(127, 255, 212, 0.658);
+        }
+        .slider{
+        width:378em;
+        margin:0.1em 0 0 0;
+        }
+        .slider img{
+        width:22em;
+        height:18em;
+        padding:50px;
+        }
+
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+
+        #support-banner{
+            font-size:200%;
+            }
+
+        .cust-label #cust-label{
+            font-size:200%;
+        margin:48% 0 0 26%
+            }
+
+        #u-info{
+        margin: -15% 0 0 1%;
+        }
+        
+        }
+
+        @media screen and (min-width:970.5px) and (max-width:1020px) {
+            body{
+            font-size:150%;
+        }
+        
+        nav a{
+        text-decoration: none;
+        padding: 0.8em 1em;
+        color: #000;
+        font-size:115%;
+        width: 10%;
+        transition:ease-in-out 0.6s;
+        }
+
+        nav a:hover{
+            border-radius:50px;
+        }
+
+        nav img{
+                transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+        }
+        
+        nav img:hover{
+            transform: scale(1.2);
+        }
+
+        .models{
+            width:95%;
+            height:28em;
+            background:rgba(127, 255, 212, 0.658);
+        }
+
+        .slider{
+        width:378em;
+        margin:-2em 0 0 0;
+        }
+
+        .slider img{
+        width:26em;
+        height:19em;
+        padding:64px;
+        }
+
+        .btns{
+        margin: 0;
+        width:100%;
+        border:none;
+        }
+
+        #support-banner{
+                font-size:250%;
+            }
+
+
+        .cust-label #cust-label{
+                font-size:250%;
+            margin:48% 0 0 26%
+            }
+
+        #u-info{
+        margin: -15% 0 0 1%;
+        }
+        
+        }
+
+        @media screen and (min-width:1020.5px) and (max-width:1070px) {
+            body{
+                font-size:110%;
+            }
+            
+            nav a{
+            text-decoration: none;
+            padding: 0.8em 3.8em;
+            color: #000;
+            width: 10%;
+            transition:ease-in-out 0.6s;
+        }
+
+            nav img{
+                    transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+            
+        
+            nav img:hover{
+                transform: scale(1.2);
+            }
+            
+            .models{
+                width:95%;
+                height:33em;
+                background:rgba(127, 255, 212, 0.658);
+            }
+        .slider{
+            width:378em;
+            margin:0 0 0 0;
+        }
+        .slider img{
+            width:36em;
+            height:22em;
+            padding:77px;
+        }
+        
+        .btns{
+            margin:-5% 0;
+            width:100%;
+            border:none;
+        }
+
+        .cust-label #cust-label{
+            margin:45% 0 0 26%;
+        }
+        
+            .deals img{
+                padding: 18% 2%;
+            }
+
+        #u-info{
+            margin: -12% 0 0 -25%;
+        }
+        }
+
+        @media screen and (min-width:1070.5px) and (max-width:1140px) {
+            body{
+                font-size:110%;
+            }
+            
+            nav a{
+            text-decoration: none;
+            padding: 0.8em 3.8em;
+            color: #000;
+            width: 10%;
+            transition:ease-in-out 0.6s;
+        }
+
+            nav img{
+                    transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+            
+            nav img:hover{
+                transform: scale(1.2);
+            }
+            
+            .models{
+                width:95%;
+                height:40em;
+                background:rgba(127, 255, 212, 0.658);
+            }
+        .slider{
+            width:378em;
+            margin:0 0 0 0;
+        }
+        .slider img{
+            width:38em;
+            height:25em;
+            padding:79px;
+        }
+        
+        .btns{
+            margin: 0;
+            width:100%;
+            border:none;
+        }
+
+            .cust-label #cust-label{
+                margin:45% 0 0 26%;
+            }
+
+        #u-info{
+            margin: -12% 0 0 -25%;
+        }
+        }
+
+        @media screen and (min-width:1140.5px) and (max-width:1200px) {
+            body{
+                font-size:140%;
+            }
+            
+            nav a{
+            text-decoration: none;
+            padding: 0.8em 3.8em;
+            color: #000;
+            width: 10%;
+            transition:ease-in-out 0.6s;
+        }
+
+        nav img{
+            transition: transform 1s, filter 1.5s ease-in-out;
+            filter:blur(1.2px);
+            transform: scale(1);
+            }
+        
+    
+        nav img:hover{
+            transform: scale(1.2);
+            }
+            
+
+        .models{
+            width:95%;
+            height:42em;
+            background:rgba(127, 255, 212, 0.658);
+
+        }
+        
+        .slider{
+            width:378em;
+            margin:0 0 0 0;
+        }
+        
+        .slider img{
+            width:30em;
+            height:26em;
+            padding:102px;
+        }
+        
+        .btns{
+            margin: 0;
+            width:100%;
+            border:none;
+        }
+            .cust-label #cust-label{
+                margin:45% 0 0 26%;
+            }
+
+        #u-info{
+            margin: -12% 0 0 -25%;
+        }
+        }
+
+        @media screen and (min-width:1200.5px) and (max-width:1240px) {
+            body{
+                font-size:150%;
+            font-weight:100;
+            text-transform:capitalize;
+            }
+            
+            nav a{
+            text-decoration: none;
+            padding: 0.8em 3.0em;
+            color: #000;
+            width: 10%;
+            transition:ease-in-out 0.6s;
+        }
+
+            nav img{
+                    transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+            
+            nav img:hover{
+                transform: scale(1.2);
+            }
+
+            .models{
+                width:95%;
+                height:40em;
+                background:rgba(127, 255, 212, 0.658);
+            }
+        
+        .slider{
+            width:378em;
+            height:auto;
+            margin:0 0 0 0;
+        }
+        
+        .slider img{
+            width:36em;
+            height:30em;
+            padding:37px;
+        }
+        
+        .btns{
+            margin:3% 0;
+            width:100%;
+            border:none;
+            
+        }
+        
+            .btns a{
+                border:2px solid inherit;
+                border-radius:10px;
+                padding:0.5% 5%;
+            }
+            
+            .cust-label #cust-label{
+                margin:45% 0 0 26%;
+            }
+        
+        #u-info{
+            margin: -12% 0 0 -25%;
+        }
+        
+            .footer-contents p{
+                max-width:600px;
+                font-weight:bold;
+                font-style:oblique;
+            }
+        }
+
+        @media screen and (min-width:1240.5px) and (max-width:1280px) {
+            body{
+                font-size:150%;
+            font-weight:100;
+            text-transform:capitalize;
+            font-weight:bold;
+            font-style:oblique;
+            }
+            
+            nav a{
+            text-decoration: none;
+            padding: 0.8em 3.0em;
+            color: #000;
+            width: 10%;
+            transition:ease-in-out 0.6s;
+        }
+
+            nav img{
+                    transition: transform 1s, filter 1.5s ease-in-out;
+                filter:blur(1.2px);
+                transform: scale(1);
+            }
+            
+        
+            nav img:hover{
+                transform: scale(1.2);
+            }
+            
+
+            .models{ 
+                width:95%;
+                height:40em;
+                background:rgba(127, 255, 212, 0.658);
+            }
+        .slider{
+            width:378em;
+            height:auto;
+            margin:0 0 0 4em;
+        }
+        .slider img{
+            width:37em;
+            height:30em;
+            padding:28px;
+        }
+        
+        .btns{
+            margin:3% 0;
+            width:100%;
+            border:none;
+            
+        }
+
+        .btns a{
+            border:2px solid inherit;
+            border-radius:10px;
+            padding:0.5% 5%;
+        }
+        
+
+            .cust-label #cust-label{
+                margin:45% 0 0 26%;
+            }
+
+        #u-info{
+            margin: -12% 0 0 -25%;
+        }
+
+        }
+
+            @media screen and (min-width:1279.5px) and (max-width:1300px) {
+                body{
+                    font-size:145%;
+                font-style:italic;
+                font-weight:bold;
+                }
+                
+                nav a{
+                text-decoration: none;
+                padding: 0.8em 3.8em;
+                color: #000;
+                width: 10%;
+                transition:ease-in-out 0.6s;
+            }
+            
+                nav img{
+                        transition: transform 1s, filter 1.5s ease-in-out;
+                    filter:blur(1.2px);
+                    transform: scale(1);
+                }
+                
+            
+                nav img:hover{
+                    transform: scale(1.2);
+                }
+                
+                .models{ 
+                width:95%;
+                height:42em;
+                background:rgba(127, 255, 212, 0.658);
+            }
+            .slider{
+            width:378em;
+            height:auto;
+            margin:0 0 0 4em;
+            }
+            .slider img{
+            width:37em;
+            height:30em;
+            padding:62px;
+            }
+            
+            .btns{
+            margin:0 0;
+            width:100%;
+            border:none;
+            
+            }
+            
+            .btns a{
+                border:2px solid inherit;
+                border-radius:10px;
+                padding:0.5% 5%;
+            }
+            
+                .customer .cust-icons img:nth-child(1),.customer .cust-icons img:nth-child(2),.customer .cust-icons img:nth-child(3),.customer .cust-icons img:nth-child(4){
+                margin: -2% 15% 0 -50%  ;
+                text-align: center;
+                height:3.5em;
+                width:3.5em;
+            }
+            #u-info{
+                margin: -12% 0 0 -8%;
+            }
+            .footer-contents p{
+                max-width:870px;
+            }
+        }
+
+        }
